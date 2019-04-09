@@ -1,4 +1,4 @@
-# TShirt-Designer
+# Design
 
 Run 
 * npm install
