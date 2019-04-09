@@ -14,4 +14,6 @@ Features:
 
 ScreenShots of the current version:
 
-https://snag.gy/ywum8q.jpg
+![image](https://user-images.githubusercontent.com/9006808/55770586-0c152600-5aaf-11e9-9091-fb7c30146cb5.png)
+![image](https://user-images.githubusercontent.com/9006808/55770607-218a5000-5aaf-11e9-9e7c-fc7af25ab64d.png)
+
