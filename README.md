@@ -14,8 +14,3 @@ Features:
 
 ScreenShots of the current version:
 
-![Alt text](http://i.imgur.com/awVeBNp.png)
-
-![Alt text](http://i.imgur.com/hBisXrJ.png)
-
-![Alt text](http://i.imgur.com/jhXIVzM.png)
