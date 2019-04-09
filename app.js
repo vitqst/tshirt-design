@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({extended: true})); // for parsing application/x-www-form-urlencoded
 
-
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
@@ -54,35 +53,6 @@ app.post('/save', (req, res) => {
 });
 
 app.post('/load', function (req, res) {
-    var mysql = require('mysql');
-    var connection = mysql.createConnection({
-        host: 'localhost',
-        user: 'root',
-        password: 'root',
-        database: 'ShirtDesign'
-    });
-
-    connection.connect(function (err) {
-        if (err) {
-            console.error('Error connecting: ' + err.stack);
-            return;
-        }
-
-        console.log('Connected as id ' + connection.threadId);
-
-        // Each code is mapped to a stringified version of the canvas.
-        // Thus, we load the corresponding canvas back to the frontend.
-        connection.query('SELECT canvasString AS canvas_code from canvas_mappings where ?', {id: req.body.value}, function (err, result) {
-            if (err) throw err;
-            if (typeof result[0] == 'undefined') {
-                res.end('undefined');
-            } else {
-                console.log(result[0].canvas_code);
-                res.end(result[0].canvas_code);
-            }
-        });
-
-    });
 });
 
 
