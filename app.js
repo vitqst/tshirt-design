@@ -17,6 +17,11 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'views/index.html'));
 });
 
+app.get('/texture', function (req, res) {
+  res.sendFile(path.join(__dirname, 'views/texture.html'));
+});
+
+
 app.post('/upload', (req, res) => {
     const form = new formidable.IncomingForm();
     console.log(form);

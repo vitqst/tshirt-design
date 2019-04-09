@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Textures</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.1/css/bootstrap-slider.min.css'
+          rel='stylesheet'
+          type='text/css'>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+
+    <!--Custom-->
+    <link href="css/texture.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <div class="nav-header">
+        <div class="container">
+            <div class="brand-name">
+                What-ever
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="upload-area">
+                <div class="text-large">
+                    Upload file here
+                </div>
+
+                <div>
+                    <label class="btn btn-success" for="#fileupload">
+                        <span>Upload Here</span>
+                    </label>
+                    <input style="display: none" type="file" id="#fileupload"/>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div id="scene-container">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.1/bootstrap-slider.min.js"></script>
+
+<!--Local-->
+<script src="/javascripts/fabric.js"></script>
+<script src="/javascripts/sweetalert.min.js"></script>
+<script src="/javascripts/vendor/threejs/three.js"></script>
+<script src="/javascripts/texture.js"></script>
+
+</body>
+</html>
