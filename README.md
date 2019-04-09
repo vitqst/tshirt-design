@@ -1,4 +1,4 @@
-# TShirt-Designer
+# Design
 
 Run 
 * npm install
@@ -14,8 +14,6 @@ Features:
 
 ScreenShots of the current version:
 
-![Alt text](http://i.imgur.com/awVeBNp.png)
+![image](https://user-images.githubusercontent.com/9006808/55770586-0c152600-5aaf-11e9-9091-fb7c30146cb5.png)
+![image](https://user-images.githubusercontent.com/9006808/55770607-218a5000-5aaf-11e9-9e7c-fc7af25ab64d.png)
 
-![Alt text](http://i.imgur.com/hBisXrJ.png)
-
-![Alt text](http://i.imgur.com/jhXIVzM.png)
