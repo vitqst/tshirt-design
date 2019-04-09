@@ -1,7 +1,28 @@
 {
+  "name": "designer",
+  "version": "0.1",
+  "description": "a tool for designer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.14.0",
     "formidable": "^1.2.1"
-  }
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitqst/tshirt-design"
+  },
+  "keywords": [
+    "node",
+    "designer",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "license": "MIT"
 }
