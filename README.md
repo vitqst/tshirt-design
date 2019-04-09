@@ -14,3 +14,4 @@ Features:
 
 ScreenShots of the current version:
 
+https://snag.gy/ywum8q.jpg
